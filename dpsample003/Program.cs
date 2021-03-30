@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 
 namespace dpsample003 {
+    /// <summary>
+    /// 特殊な2項間漸化式 1
+    /// </summary>
+    /// <remarks>https://paiza.jp/works/mondai/dp_primer/dp_primer_recursive_formula_step2/edit?language_uid=c-sharp</remarks>
     class Program {
-        static void Main(string[] args) {
+        static void Main() {
             var inputs = Console.ReadLine().Split(' ');
             var x = Convert.ToInt32(inputs[0]);
             var d_1 = Convert.ToInt32(inputs[1]);
@@ -14,8 +18,9 @@ namespace dpsample003 {
             Console.WriteLine(GetAnswer(x, d_1, d_2, k));
         }
 
-
-        static Dictionary<int, int> _answer = new Dictionary<int, int>();
+#pragma warning disable IDE0044 // 読み取り専用修飾子を追加します
+        static Dictionary<int, int> _answer = new();
+#pragma warning restore IDE0044 // 読み取り専用修飾子を追加します
 
         static int GetAnswer(int x, int d_1, int d_2, int target) {
             if (!_answer.ContainsKey(target)) {
