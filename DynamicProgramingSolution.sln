@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dpsample001", "dpsample001\dpsample001.csproj", "{B6A6794D-0866-45BD-B970-A7D8D21EDF6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dpsample001", "dpsample001\dpsample001.csproj", "{B6A6794D-0866-45BD-B970-A7D8D21EDF6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dpsample002", "dpsample002\dpsample002.csproj", "{D242EC06-4BE3-4AA6-B456-A07F5EA34F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dpsample002", "dpsample002\dpsample002.csproj", "{D242EC06-4BE3-4AA6-B456-A07F5EA34F58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dpsample003", "dpsample003\dpsample003.csproj", "{AC2D185B-3D22-496A-A328-74C7F83EA9A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dpsample003", "dpsample003\dpsample003.csproj", "{AC2D185B-3D22-496A-A328-74C7F83EA9A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dpsample004", "dpsample004\dpsample004.csproj", "{01306F36-AEEA-4813-B5E7-E8F6DC95F8CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dpsample004", "dpsample004\dpsample004.csproj", "{01306F36-AEEA-4813-B5E7-E8F6DC95F8CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fibonaccisample001", "fibonaccisample001\fibonaccisample001.csproj", "{A981E065-7F76-4292-9319-DF5E2C588775}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fibonaccisample001", "fibonaccisample001\fibonaccisample001.csproj", "{A981E065-7F76-4292-9319-DF5E2C588775}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fibonaccisample002", "fibonaccisample002\fibonaccisample002.csproj", "{600A471B-FD3D-4A88-A593-810BB7040952}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fibonaccisample002", "fibonaccisample002\fibonaccisample002.csproj", "{600A471B-FD3D-4A88-A593-810BB7040952}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stairsup002", "stairsup002\stairsup002.csproj", "{CD72864C-3E6E-4182-82D5-D909678E0FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stairsup003", "stairsup003\stairsup003.csproj", "{55D4E628-BE55-4A45-AF7B-79EEB0AFEE8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stairsup001", "stairsup001\stairsup001.csproj", "{6938E818-5033-49C8-8162-FE94E17BAFE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{600A471B-FD3D-4A88-A593-810BB7040952}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{600A471B-FD3D-4A88-A593-810BB7040952}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{600A471B-FD3D-4A88-A593-810BB7040952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD72864C-3E6E-4182-82D5-D909678E0FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD72864C-3E6E-4182-82D5-D909678E0FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD72864C-3E6E-4182-82D5-D909678E0FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD72864C-3E6E-4182-82D5-D909678E0FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D4E628-BE55-4A45-AF7B-79EEB0AFEE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D4E628-BE55-4A45-AF7B-79EEB0AFEE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D4E628-BE55-4A45-AF7B-79EEB0AFEE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D4E628-BE55-4A45-AF7B-79EEB0AFEE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6938E818-5033-49C8-8162-FE94E17BAFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6938E818-5033-49C8-8162-FE94E17BAFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6938E818-5033-49C8-8162-FE94E17BAFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6938E818-5033-49C8-8162-FE94E17BAFE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
