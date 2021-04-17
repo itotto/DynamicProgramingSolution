@@ -21,13 +21,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stairsup003", "stairsup003\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stairsup001", "stairsup001\stairsup001.csproj", "{6938E818-5033-49C8-8162-FE94E17BAFE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowestprice001", "lowestprice001\lowestprice001.csproj", "{9E0BC3A7-0AB4-4B06-8956-899160A305CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lowestprice001", "lowestprice001\lowestprice001.csproj", "{9E0BC3A7-0AB4-4B06-8956-899160A305CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowestprice002", "lowestprice002\lowestprice002.csproj", "{160923C8-0BD1-4B90-B7B5-54C5ECFD7854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lowestprice002", "lowestprice002\lowestprice002.csproj", "{160923C8-0BD1-4B90-B7B5-54C5ECFD7854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowestprice003", "lowestprice003\lowestprice003.csproj", "{8BA191D3-4FFC-4FEB-ADF2-2D479B1E7CB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lowestprice003", "lowestprice003\lowestprice003.csproj", "{8BA191D3-4FFC-4FEB-ADF2-2D479B1E7CB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowestprice004", "lowestprice004\lowestprice004.csproj", "{E1D688EA-C84D-43A9-A0BD-F08E8931CFAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lowestprice004", "lowestprice004\lowestprice004.csproj", "{E1D688EA-C84D-43A9-A0BD-F08E8931CFAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "longestpartlength001", "longestpartlength001\longestpartlength001.csproj", "{4C2DD703-229A-43CF-9891-CCE1B7FF0F24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "longestpartlength002", "longestpartlength002\longestpartlength002.csproj", "{2FF03816-4A56-4D7E-AA10-470453A2A3FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "longestpartlength003", "longestpartlength003\longestpartlength003.csproj", "{6A73D625-405B-48F8-BCD8-F8BA9E40C4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longestpartlength004", "longestpartlength004\longestpartlength004.csproj", "{93922A15-AADE-4B6A-B548-F83BFF6E669F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +95,22 @@ Global
 		{E1D688EA-C84D-43A9-A0BD-F08E8931CFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1D688EA-C84D-43A9-A0BD-F08E8931CFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1D688EA-C84D-43A9-A0BD-F08E8931CFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2DD703-229A-43CF-9891-CCE1B7FF0F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2DD703-229A-43CF-9891-CCE1B7FF0F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2DD703-229A-43CF-9891-CCE1B7FF0F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2DD703-229A-43CF-9891-CCE1B7FF0F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF03816-4A56-4D7E-AA10-470453A2A3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF03816-4A56-4D7E-AA10-470453A2A3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF03816-4A56-4D7E-AA10-470453A2A3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF03816-4A56-4D7E-AA10-470453A2A3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A73D625-405B-48F8-BCD8-F8BA9E40C4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A73D625-405B-48F8-BCD8-F8BA9E40C4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A73D625-405B-48F8-BCD8-F8BA9E40C4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A73D625-405B-48F8-BCD8-F8BA9E40C4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93922A15-AADE-4B6A-B548-F83BFF6E669F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93922A15-AADE-4B6A-B548-F83BFF6E669F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93922A15-AADE-4B6A-B548-F83BFF6E669F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93922A15-AADE-4B6A-B548-F83BFF6E669F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
