@@ -7,7 +7,9 @@ namespace subsetsum003 {
     /// </summary>
     /// <remarks>https://paiza.jp/works/mondai/dp_primer/dp_primer_partial_sums_step2/edit?language_uid=c-sharp</remarks>
     class Program {
-
+        /// <summary>
+        /// 見つからない場合の値
+        /// </summary>
         const int NOT_FOUND = -1;
 
         /// <summary>
@@ -40,13 +42,8 @@ namespace subsetsum003 {
                 // 降順で並べ替え
                 _weights.Sort((x, y) => x - y);
 
-                for (var i = n - 1; i >= 0; i--) {
-                    var f = FindTargetCombination(targetValue, _weights[i], i - 1);
-                    if (f != NOT_FOUND) {
-                        if (depth == NOT_FOUND || f < depth) depth = f + 1;
-                    }
-                    if (depth == 2) break;
-                }
+                // 深さを計算
+                depth = FindTargetCombination(targetValue, 0, n - 1);
             }
 
             // 結果の表示
