@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "subsetsum001", "subsetsum00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "subsetsum002", "subsetsum002\subsetsum002.csproj", "{5F000D16-5C20-4595-85E3-2DDA96E22B54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "subsetsum003", "subsetsum003\subsetsum003.csproj", "{AA2EED40-7DC6-434A-B4B4-898436BACDB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "subsetsum003", "subsetsum003\subsetsum003.csproj", "{AA2EED40-7DC6-434A-B4B4-898436BACDB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "subsetsum004", "subsetsum004\subsetsum004.csproj", "{2A99B4BE-A73B-4C5C-9272-72E1C7C92477}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{AA2EED40-7DC6-434A-B4B4-898436BACDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA2EED40-7DC6-434A-B4B4-898436BACDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA2EED40-7DC6-434A-B4B4-898436BACDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A99B4BE-A73B-4C5C-9272-72E1C7C92477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A99B4BE-A73B-4C5C-9272-72E1C7C92477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A99B4BE-A73B-4C5C-9272-72E1C7C92477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A99B4BE-A73B-4C5C-9272-72E1C7C92477}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
