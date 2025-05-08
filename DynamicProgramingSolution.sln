@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dpsample001", "dpsample001\dpsample001.csproj", "{B6A6794D-0866-45BD-B970-A7D8D21EDF6A}"
 EndProject
@@ -44,6 +44,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "subsetsum003", "subsetsum003\subsetsum003.csproj", "{AA2EED40-7DC6-434A-B4B4-898436BACDB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "subsetsum004", "subsetsum004\subsetsum004.csproj", "{2A99B4BE-A73B-4C5C-9272-72E1C7C92477}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Columns", "Columns", "{DDB4EF12-CC4E-5E88-E6FC-71A802F4DE97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem1", "Problem1", "{19E1825F-395B-42EF-B84E-D0F113498ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p1_stemp1", "Columns\Problem1\p1_stemp1\p1_stemp1.csproj", "{D5A26B8F-F00E-47B3-AE27-C2E87017F2D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,9 +141,17 @@ Global
 		{2A99B4BE-A73B-4C5C-9272-72E1C7C92477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A99B4BE-A73B-4C5C-9272-72E1C7C92477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A99B4BE-A73B-4C5C-9272-72E1C7C92477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A26B8F-F00E-47B3-AE27-C2E87017F2D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A26B8F-F00E-47B3-AE27-C2E87017F2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A26B8F-F00E-47B3-AE27-C2E87017F2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A26B8F-F00E-47B3-AE27-C2E87017F2D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19E1825F-395B-42EF-B84E-D0F113498ACC} = {DDB4EF12-CC4E-5E88-E6FC-71A802F4DE97}
+		{D5A26B8F-F00E-47B3-AE27-C2E87017F2D6} = {19E1825F-395B-42EF-B84E-D0F113498ACC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CCE1F1E-8EF1-4D07-A0B0-4735FE66EF30}
